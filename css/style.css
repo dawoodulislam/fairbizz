@@ -1,0 +1,730 @@
+/*font start*/
+@font-face
+{
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face
+{
+    font-family: Montserrat-ExtraBold;
+    src: url('../fonts/Montserrat-ExtraBold.ttf');
+}
+@font-face
+{
+    font-family: Montserrat-Medium;
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+@font-face
+{
+    font-family: Montserrat-Regular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face
+{
+    font-family: Montserrat-SemiBold;
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+@font-face
+{
+    font-family: OpenSans-regular;
+    src: url('../fonts/OpenSans-regular.ttf');
+}
+@font-face
+{
+    font-family: OpenSans-SemiBold;
+    src: url('../fontsOpenSans-SemiBold.ttf');
+}
+/*font end*/
+
+.py-44{ padding: 22px 0;}
+.py-100{ padding: 100px 0;}
+.pb-100{padding-bottom: 80px;}
+
+/*head1 start*/
+#head1 p
+{
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #777777;
+}
+#head1 p a
+{
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    color: #08237e;
+}
+#head1 i
+{
+    font-size: 14px;
+    color: #959595;
+    padding: 0 10px;
+}
+#head1 i:nth-child(5)
+{
+    padding-right: 0;
+}
+#head1 i:nth-child(1)
+{
+    padding-left: 16px;
+}
+/*head1 end*/
+
+/*head2 start*/
+#head2 i
+{
+    color: #007bff;
+    font-size: 16px;
+}
+#head2 h5
+{
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #007bff;
+}
+#head2 p
+{
+    font-family: OpenSans-regular;
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+}
+#head2 img:hover
+{
+    transform: scale(1.1,1.1);
+}
+/*head2 end*/
+
+/*nav start*/
+header .navbar
+{
+    background: transparent;
+    position: absolute;
+}
+header .navbar .container
+{
+    padding: 13px 0;
+    background: #0668de;
+}
+header .navbar h5
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 30px;
+    color: #cccccc;
+    margin: 0;
+}
+header .navbar h5 span
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+header .navbar a:nth-child(1)
+{
+    text-decoration: none;
+}
+header .navbar .nav-link
+{
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: white;
+    margin: 0 13px;
+    text-transform: uppercase;
+    transform: 0.5s;
+}
+header .navbar .nav-link:hover
+{
+    transform: scale(1.2,1.2);
+}
+header .navbar button
+{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+header .navbar .navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+header .navbar .btn
+{
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #ffffff;
+    width: 145px;
+    height: 45px;
+    padding: 12px 12px;
+    background: #08237e;
+    border-radius: 2em;
+}
+header nav ul li:nth-child(1)
+{
+    margin-left: 35px;
+}
+header nav
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 140px;
+}
+header .navimg:hover
+{
+    transform: scale(1.1,1.1);
+}
+/*nav end*/
+
+/*slider start*/
+#banner
+{
+    background: url('../img/slider-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 680px;
+
+}
+#banner h1,#banner h1 span
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 72px;
+    color: #fff;
+}
+#banner h1 span
+{
+    color: #007bff;
+} 
+#banner p
+{
+    font-family: OpenSans-regular;
+    font-size: 16px;
+    color: #fff;
+    margin: 25px 0 30px;
+}
+#banner .btn
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 12px;
+    color: #202020;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    background: #007bff;
+    border: 0;
+    border-radius: 0;
+}
+#banner .btn:hover
+{
+    background: rgba(0,123,255,0.7);
+}
+#banner .carousel-item 
+{
+    /*    margin-top: 160px;*/
+    min-height: 450px;
+    margin-bottom: 90px;
+}
+#banner .carousel-indicators .active
+{
+    background-color: #007bff;
+}
+#banner .carousel
+{
+    top: 130px;
+}
+/*slider end*/
+
+/*about start*/
+#about .about-head h1,#service .service-head h1,#case .case-head h1,#faq .faq-head h1,#blog .blog-head h1
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 48px;
+    color: #202020;
+}
+#about .about-head h1 span,#service .service-head h1 span,#case .case-head h1 span,#faq .faq-head h1 span,#blog .blog-head h1 span
+{
+    background: #007bff;
+    height: 3px;
+    width: 80px;
+    display: inline-block;
+}
+#about .about-head h5
+{
+    margin-top: 25px;
+    font-family: Montserrat-Medium;
+    font-size: 30px;
+    color: #828282;
+}
+#about .about-2nd p,#about .about-3rd p,#case .case-head p,#faq .faq-head p,#blog .blog-head p
+{
+    font-family: OpenSans-regular;
+    font-size: 14px;
+    color: #828282;
+    line-height: 33px;
+}
+#about .about-3rd p,#case .case-head p,#faq .faq-head p,#blog .blog-head p
+{
+    line-height: 27px;
+}
+#about .about-3rd h3
+{
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    color: #333333;
+    margin: 25px 0 10px;
+}
+/*about end*/
+
+/*ssrvice start*/
+#service
+{
+    position: relative;
+    min-height: 730px;
+}
+#service .carousel-item1 h4
+{
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    color: #202020;
+    padding: 30px 0 5px;
+}
+#service .carousel-item1 h5
+{
+    font-family: OpenSans-regular;
+    font-size: 14px;
+    color: #828282;
+}
+#service .container1
+{
+    position: relative;
+}
+#service .carousel1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#service .carousel1 .carousel-control-prev .pro-prev-box,.pro-next-box
+{
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    color: #959595;
+    transition: 0.6s;
+}
+#service .carousel1 .carousel-control-prev .pro-prev-box:hover,.pro-next-box:hover
+{
+    color: #007bff;
+}
+#service .carousel-control-next,#service .carousel-control-prev {
+    position: absolute;
+     top: 103%; 
+    bottom: 0;
+    right: 8%;
+    z-index: 1;
+    display: -ms-block;
+     display: block; 
+    -ms-flex-align: none;
+     align-items: none; 
+    -ms-flex-pack: none;
+     justify-content: none; 
+    width: 15%;
+    /* color: #fff; */
+    text-align: right;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+#service .carousel-control-next
+{
+    right: 1%;
+}
+#service .carousel-indicators {
+    position: absolute;
+    top: 103%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+     justify-content: normal; 
+    padding-left: 0px;
+    margin-right: 15%;
+    margin-left: 1%;
+    list-style: none;
+}
+#service .carousel-indicators li:nth-child(1),#service .carousel-indicators li:nth-child(3)
+{
+    width: 20px;
+    height: 5px;
+    background-color: #bfbfbf;
+}
+#service .carousel-indicators li:nth-child(2)
+{
+    width: 35px;
+    height: 5px;
+    background-color: #bfbfbf;
+}
+#service .carousel-indicators .active
+{
+    background-color: #007bff !important;
+}
+/*service end*/
+
+/*video start*/
+#video
+{
+    background-color: #161616;
+    padding: 120px 0;
+}
+#video .video-head h5
+{
+    font-family: OpenSans-regular;
+    font-size: 24px;
+    color: #ededed;
+}
+#video .video-head h3
+{
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    color: #fff;
+    padding: 20px 0 25px;
+}
+#video .video-head .video-link .btn
+{
+    font-family: Montserrat-ExtraBold;
+    font-size: 12px;
+    color: #202020;
+    background-color: #007bff;
+    padding: 12px 35px;
+    border-radius: 0;
+}
+#video .video-head .video-link .btn:hover
+{
+    background: rgba(0,123,255,0.7);
+}
+#video .video-head .video-link .play-btn
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#video .video-head .video-link .play-btn i
+{
+    font-size: 10px;
+    color: white;
+}
+#video .video-head .video-link p
+{
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #fff;
+}
+#video .video-head .video-link a
+{
+    text-decoration: none;
+}
+/*video end*/
+
+/*case start*/
+#case
+{
+    position: relative;
+    min-height: 800px;
+}
+#case button,#test .test-btn .btn
+{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: relative;
+}
+#case button i, #test .test-btn .btn i
+{
+    font-size: 24px;
+    position: absolute;
+    color: #777777;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.6s;
+}
+#case button i:hover,#test .test-btn .btn i:hover
+{
+    color: #007bff;
+}
+#case button:focus,#case button i:focus
+{
+    outline: none;
+}
+#case .container2
+{
+    position: relative;
+}
+#case .carousel2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#case .carousel-item2 h4,#case .carousel-item2 a
+{
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    color: #333333;
+    padding: 25px 0 15px;
+}
+#case .carousel-item2 a
+{
+    font-size: 14px;
+    padding: 0;
+}
+/*case end*/
+
+/*testimonial start*/
+#test
+{
+    background-color: #f7f7fd;
+    padding-bottom: 80px;
+}
+#test .carousel
+{
+    position: static;
+}
+#test .test-head h3
+{
+    font-family: OpenSans-SemiBold;
+    font-size: 30px;
+    color: #202020;
+}
+#test .test-head .d-flex h5
+{
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #333333;
+}
+#test .test-head .d-flex
+{
+    padding: 17px 0 25px;
+}
+#test .test-head .d-flex p
+{
+    font-family: OpenSans-SemiBold;
+    font-size: 12px;
+    color: #777777;
+}
+#test .card
+{
+    background-color: #007bff;
+    border: 0;
+    border-radius: 0;
+}
+#test .card .card-body
+{
+    padding: 3.375rem;
+}
+#test .card .card-body h1
+{
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+.py-30{padding: 10px 0;}
+#test .card .card-body input,#test .card .card-body select,#test .card .card-body textarea
+{
+    border: 0;
+    border-radius: 0;
+}
+#test .card .card-body  textarea::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+#test .card .card-body .btn
+{
+    width: 250px;
+    height: 60px;
+    background-color: #08237e;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 0;
+}
+/*testimonial end*/
+
+/*client start*/
+#client
+{
+    padding: 60px 0;
+}
+/*client end*/
+
+
+/*faq start*/
+#faq .card button:focus
+{
+    outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+#faq .card button
+{
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    color: #333333;
+}
+#faq .card button i
+{
+    vertical-align: middle;
+}
+#faq .card p
+{
+    font-family: OpenSans-regular;
+    font-size: 14px;
+    color: #777777;
+    padding: 10px 15px 0 15px;;
+}
+/*faq end*/
+
+/*blog start*/
+#blog
+{
+    padding: 20px 0 80px;
+}
+#blog .blog-text h4
+{
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #333333;
+}
+#blog .blog-text p
+{
+    font-family: OpenSans-regular;
+    font-size: 14px;
+    color: #777777;
+    padding: 12px 0 30px; 
+}
+#blog .blog-text p span
+{
+    color: #007bff;
+    padding-left: 15px;
+}
+#blog .blog-text a
+{
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    color: #333333;
+}
+/*blog ennd*/
+
+/*footer start*/
+#contact
+{
+    background: url('../img/footer-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 530px;
+}
+#contact form button
+{
+    position: absolute;
+    top: 0;
+    right: 25%;
+    background-color: transparent;
+    border:0;
+}
+#contact form button:focus
+{
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+#contact .foot-1st button i
+{
+    font-size: 14px;
+    color: #ffffff;
+}
+#contact .foot-1st input[type="text"]
+{
+    background-color: transparent;
+    border-radius: 0;
+    padding-bottom: 10px;
+    border: 0;
+    border: 1px solid #7f7f7f;
+}
+#contact .foot-1st p
+{
+    font-family: OpenSans-regular;
+    font-size: 13px;
+    color: #d5d5d5;
+    line-height: 28px;
+    padding: 35px 0 20px;
+}
+#contact .foot-2nd h3,#contact .foot-3rd h3
+{
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+#contact .foot-2nd .foot-list ul li a
+{
+    font-family: OpenSans-regular;
+    font-size: 15px;
+    color: #d5d5d5;
+}
+#contact .foot-2nd .foot-list ul li
+{
+    padding-bottom: 5px;
+}
+#contact .foot-3rd p
+{
+    font-family: OpenSans-regular;
+    font-size: 14px;
+    color: #d5d5d5;
+}
+#contact .foot-3rd h6
+{
+    font-family: Montserrat-SemiBold;
+    font-size: 16px;
+    color: #ffffff;
+}
+#contact .foot-3rd a
+{
+    text-decoration: none;
+}
+#contact .foot-3rd a i
+{
+    font-size: 14px;
+    color: #999999;
+    padding: 0 12px;
+    vertical-align: top;
+}
+#contact .foot-3rd a:hover
+{
+    transform: scale(1.4,1.4);
+}
+#contact footer hr
+{
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+#contact footer p
+{
+    font-family: OpenSans-regular;
+    font-size: 14px;
+    color: #d5d5d5;
+}
+#contact footer a
+{
+    font-family: OpenSans-regular;
+    font-size: 15px;
+    color: #d5d5d5;
+    margin-left: 25px
+}
+/*footer end*/
+
+
+
+
+
+
+
+

@@ -1,0 +1,327 @@
+
+@media (max-width: 420px)
+{
+
+}
+@media (min-width: 421px) and (max-width: 575px)
+{
+
+}
+/* start small than sm */
+@media (max-width: 575px)
+{
+    header .navbar
+    {
+        background: #0668de;
+    }
+    header .navbar .nav-link
+    {
+        margin: 0 0px;
+        font-size: 11px;
+    }
+    header .navbar
+    {
+        top: 0;
+        width: 100%;
+        position: static;
+    }
+
+    #banner
+    {
+        min-height: 550px;
+    }
+    #banner h1,#banner h1 span
+    {
+        font-size: 33px;
+    }
+    #banner p
+    {
+        font-size: 12px;
+        margin: 25px 0 30px;
+    }
+    #banner .btn
+    {
+        font-size: 11px;
+        padding: 12px 25px;
+    }
+    #banner .carousel-item 
+    {
+        min-height: 320px;
+        margin-bottom: 105px;
+    }
+    header .carousel
+    {
+        top: 10px;
+    }
+    .prev-img
+    {
+        width: 25px;
+    }
+    .next-img
+    {
+        width: 25px;
+    }
+
+    #service .carousel-control-prev 
+    {
+        right: 15%
+    }
+    #service
+    {
+        min-height: 880px;
+    }
+
+
+    #case
+    {
+        min-height: 1080px;
+    }
+
+    #faq .card button
+    {
+        font-size: 16px;
+    }
+    
+    #contact footer a:nth-child(1)
+    {
+        margin-left: 0;
+    }
+}
+/* end small than sm */
+
+/* start sm */
+@media (min-width: 576px) and (max-width: 767px)
+{
+    header .navbar
+    {
+        background: #0668de;
+    }
+    header .navbar .nav-link
+    {
+        margin: 0 0px;
+        font-size: 13px;
+    }
+    header .navbar
+    {
+        top: 0;
+        width: 100%;
+        position: static;
+    }
+
+    #banner
+    {
+        min-height: 600px;
+    }
+    #banner h1, #banner h1 span
+    {
+        font-size: 40px;
+    }
+    #banner p
+    {
+        font-size: 13px;
+        margin: 25px 0 30px;
+    }
+    #banner .btn
+    {
+        font-size: 11px;
+        padding: 12px 28px;
+    }
+    #banner .carousel-item 
+    {
+        min-height: 350px;
+        margin-bottom: 105px;
+    }
+    header .carousel
+    {
+        top: 40px;
+    }
+    .prev-img
+    {
+        width: 30px;
+    }
+    .next-img
+    {
+        width: 30px;
+    }
+
+    #service .carousel-control-prev 
+    {
+        right: 15%
+    }
+    #service
+    {
+        min-height: 880px;
+    }
+
+    #case
+    {
+        min-height: 1080px;
+    }
+
+    #faq .card button
+    {
+        font-size: 16px;
+    }
+    
+    
+    #contact footer a:nth-child(1)
+    {
+        margin-left: 0;
+    }
+}
+/* end sm */
+
+/* start md */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    header .navbar .nav-link
+    {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    header nav ul li:nth-child(1)
+    {
+        margin-left: 0px;
+    }
+
+    #banner h1,#banner h1 span
+    {
+        font-size: 50px;
+    }
+    #banner p
+    {
+        font-size: 15px;
+        margin: 25px 0 30px;
+    }
+    #banner .btn
+    {
+        font-size: 12px;
+        padding: 12px 30px;
+    }
+    #banner .carousel-item 
+    {
+        min-height: 420px;
+        margin-bottom: 100px;
+    }
+    header .carousel
+    {
+        top: 130px;
+    }
+    .prev-img
+    {
+        width: 35px;
+    }
+    .next-img
+    {
+        width: 35px;
+    }
+
+    #service .carousel-control-prev 
+    {
+        right: 12%
+    }
+    #service
+    {
+        min-height: 680px;
+    }
+
+    #case
+    {
+        min-height: 700px;
+    }
+    #case .carousel-item2 h4
+    {
+        font-size: 17px;
+    }
+}
+/* end md */
+
+/* start lg */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    header .navbar .nav-link
+    {
+        margin: 0 0px;
+        font-size: 15px;
+    }
+    #head1 i
+    {
+        padding: 0 8px;
+    }
+
+
+    #banner h1,#banner h1 span
+    {
+        font-size: 60px;
+    }
+    #banner p
+    {
+        font-size: 16px;
+        margin: 25px 0 30px;
+    }
+    #banner .carousel-item 
+    {
+        min-height: 420px;
+        margin-bottom: 80px;
+    }
+    header .carousel
+    {
+        top: 130px;
+    }
+
+    #case
+    {
+        min-height: 750px;
+    }
+}
+/* end lg */
+
+/* start xl */
+@media (min-width: 1300px)
+{
+
+}
+/* end xl */
+/* start xl */
+@media (min-width: 1600px)
+{
+
+}
+/* end xl */
+/*media query end*/
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33.33%);
+    }
+
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.33%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+    transform: translateX(0);
+}
